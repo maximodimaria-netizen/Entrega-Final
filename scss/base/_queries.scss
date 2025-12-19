@@ -1,0 +1,103 @@
+@use "../base/variables" as v;
+@use "../base/mixins";
+
+@media (max-width: v.$break-md) {
+  .hero-content {
+    left: 5%;
+    right: 5%;
+    max-width: 100%;
+
+    h1 {
+      font-size: 2rem;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+    .main-low-inicio {
+    
+        .main-img-inicio {
+                  img {
+            width: 200px;
+            height: 200px;
+        }
+
+        }
+    }
+}
+
+
+@media (max-width: 768px) {
+
+  //mid-establecimiento>
+  .main-low {
+    width: 80%;
+    margin-top: -10%;
+  }
+
+  .main-subtitulo {
+    width: 80%;
+    font-size: 20px;
+  }
+
+  .main-mid-establecimiento {
+    width: 80%;
+    font-size: 16px;
+  }
+}
+
+//iconos-establecimiento>
+@media (max-width: 768px) { 
+    .main-flex {
+        flex-direction: column;
+
+        .main-mid-establecimiento,
+        .main-iconos-establecimiento {
+            width: 100%;
+        }
+
+        .main-iconos-establecimiento {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .main-iconos-establecimiento{
+        margin-top: -250px;
+        text-align: center;
+    }
+}
+//maps contacto
+@media (max-width: 768px) {
+
+    .contacto-maps-iconos {
+        flex-direction: column;
+    }
+
+    .main-iconos-contacto {
+        justify-content: center;
+    }
+
+    .iconosubicacion {
+        width: 45%;
+    }
+}
+@media (max-width: 768px) {
+    .main-img {
+        img {
+            text-align: center;
+            max-width: 600px;
+                min-width: 300px;
+        }
+    }
+}
+@media (max-width: 768px) {
+    .valoraciones-bottom-section{
+
+      .imgopiniones img{
+        min-width: 400px;
+      }
+    }
+}
+ 

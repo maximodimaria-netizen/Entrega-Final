@@ -1,0 +1,102 @@
+
+
+@mixin hover-shadow($default-shadow, $hover-shadow, $duration: 0.3s) {
+    box-shadow: $default-shadow;
+
+    &:hover {
+        box-shadow: $hover-shadow;
+        transition: box-shadow $duration ease;
+    }
+}
+
+@mixin hover-scale($scale: 1.05, $duration: 0.3s) {
+    &:hover {
+        transform: scale($scale);
+        transition: transform $duration ease;
+    }
+}
+
+@mixin rounded($radius: 8px) {
+    border-radius: $radius;
+}
+
+@mixin transition($properties: all, $duration: 0.3s, $ease: ease-in-out) {
+    transition: $properties $duration $ease;
+}
+
+@mixin fade-in($duration: 0.5s) {
+    opacity: 0;
+    @include transition(opacity, $duration);
+    animation: fadeInAnim $duration forwards;
+}
+
+@keyframes fadeInAnim {
+    to {
+        opacity: 1;
+    }
+}
+
+@mixin slide-up($distance: 20px, $duration: 0.5s) {
+    transform: translateY($distance);
+    opacity: 0;
+
+    animation: slideUpAnim $duration forwards;
+}
+
+@keyframes slideUpAnim {
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@mixin slide-in-right($duration: 1.2s, $delay: 0s) {
+  animation: slideInRight $duration ease-out $delay forwards;
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(120%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+$shadow-light: rgba(5, 164, 204, 0.15) 0 2px 10px;
+$shadow-medium: rgba(5, 164, 204, 0.2) 0 4px 15px;
+$shadow-strong: rgba(5, 164, 204, 0.3) 0 4px 20px;
+
+@mixin slide-in-right($duration: 1s, $delay: 0s) {
+  animation: slideInRight $duration ease-out $delay forwards;
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(120%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@mixin slide-in-left($duration: 1s, $delay: 0s) {
+  animation: slideInLeft $duration ease-out $delay forwards;
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-120%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+

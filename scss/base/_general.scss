@@ -1,0 +1,36 @@
+@use "../base/variables";
+@use "../base/mixins";
+header {
+    background-color: variables.$color-primario;
+    
+}
+main {
+    background-color: variables.$color-primario;
+}
+
+body {
+    background-color: variables.$color-primario;
+}
+
+.contacto-maps-iconos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+
+@mixin hover-shadow($default-shadow, $hover-shadow, $duration: 0.3s) {
+  box-shadow: $default-shadow;
+
+  &:hover {
+    box-shadow: $hover-shadow;
+    transition: box-shadow $duration ease;
+  }
+}
+
+@mixin hover-scale($scale: 1.05, $duration: 0.3s) {
+  &:hover {
+    transform: scale($scale);
+    transition: transform $duration ease;
+  }
+}
