@@ -228,6 +228,11 @@ body {
   opacity: 1;
 }
 
+@media (max-width: 768px) {
+  .main-contenedor-texto {
+    margin-top: -20%;
+  }
+}
 .main-mid {
   width: 90%;
   max-width: 750px;
@@ -633,7 +638,7 @@ footer {
 footer .footer-semifinal {
   width: 90%;
   max-width: 750px;
-  padding: 50px;
+  padding: auto;
   min-height: 200px;
   margin: 100px auto;
   text-align: left;

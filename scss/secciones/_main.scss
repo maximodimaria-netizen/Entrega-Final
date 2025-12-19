@@ -55,10 +55,19 @@
         max-width: 600px;
         color: v.$color-primario;
         z-index: 2;
-            @include m.slide-in-right(1.2s, 0.2s);
-    opacity: 1;
+        @include m.slide-in-right(1.2s, 0.2s);
+        opacity: 1;
     }
 
+}
+
+@media (max-width: 768px) {
+
+    //mid-establecimiento>
+    .main-contenedor-texto {
+
+     margin-top: -20%;
+    }
 }
 
 .main-mid {
@@ -235,8 +244,8 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 30px;
-                    @include m.slide-in-right(1.6s, 0.3s);
-            opacity: 1;
+        @include m.slide-in-right(1.6s, 0.3s);
+        opacity: 1;
 
 
         .iconos-inicio {
@@ -344,8 +353,8 @@ $accordion-bg: v.$color-terciario;
     flex-direction: column; // 🔽 vertical
     gap: 2rem;
     align-items: flex-start;
-                @include m.slide-in-right(1.6s, 0.3s);
-            opacity: 1;
+    @include m.slide-in-right(1.6s, 0.3s);
+    opacity: 1;
 }
 
 
@@ -378,8 +387,8 @@ $accordion-bg: v.$color-terciario;
     max-width: 1200px;
     margin: 0 auto;
     justify-content: center;
-                @include m.slide-in-right(1.6s, 0.3s);
-            opacity: 1;
+    @include m.slide-in-right(1.6s, 0.3s);
+    opacity: 1;
 }
 
 .testimonios-columna {
@@ -433,7 +442,7 @@ $accordion-bg: v.$color-terciario;
         @include m.rounded(8px);
         box-shadow: 0 4px 15px v.$color-primario-borde;
         @include m.fade-in(0.8s);
-        
+
     }
 }
 
@@ -444,7 +453,7 @@ $accordion-bg: v.$color-terciario;
     padding: 5%;
     text-align: center;
     width: 100%;
-    
+
 
     .valoraciones-score h2 {
         color: v.$color-subtitulos;
@@ -459,8 +468,8 @@ $accordion-bg: v.$color-terciario;
         @include m.fade-in(0.7s);
         box-shadow: 0 2px 10px v.$color-secundario;
         @include m.rounded(8px);
-            @include m.slide-in-left(1.2s, 0.2s);
-    opacity: 1;
+        @include m.slide-in-left(1.2s, 0.2s);
+        opacity: 1;
     }
 
     .imgestrellitas img {
