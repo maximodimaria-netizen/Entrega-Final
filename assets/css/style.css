@@ -450,13 +450,12 @@ body {
   margin: 5%;
 }
 .main-mid .main-mid-parrafo-contacto {
-  width: 60%;
+  width: 80%;
   height: auto;
   margin: 0 auto;
   font-size: 18px;
   line-height: 1.7;
   color: #000000;
-  margin: auto;
 }
 
 .contacto-maps-iconos {
