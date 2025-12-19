@@ -72,7 +72,7 @@
 }
 
 .main-mid {
-    font-family: "Poppins", sans-serif;
+
     width: 90%;
     max-width: 750px;
     padding: 50px;
@@ -90,14 +90,15 @@
     .main-subtitulo-inicio {
         color: v.$color-subtitulos;
         margin: 5%;
-        font-family: "Poppins", cursive;
+        font-family: v.$font-parrafos;
     }
     .main-parrafo-inicio{
-        font-family: "Poppins", cursive;
+               font-family: v.$font-parrafos;
     }
 }
 
-.main-iconos-inicio {font-family: "Poppins", cursive;
+.main-iconos-inicio {
+            font-family: v.$font-parrafos;
     display: flex;
     justify-content: center;
     gap: 7rem;
@@ -138,7 +139,7 @@
 
 
 .main-low-inicio {
-    font-family: "Poppins", sans-serif;
+            font-family: v.$font-parrafos;
     padding: 2%;
     
 
@@ -161,7 +162,7 @@
         margin-left: 200px;
 
         .main-low-parr {
-        font-family: "Poppins", cursive;
+                font-family: v.$font-parrafos;
             width: 90%;
             max-width: 500px;
             padding: 50px;
@@ -198,7 +199,7 @@
 }
 
 .main-contenedor {
-font-family: "Poppins", cursive;
+        font-family: v.$font-parrafos;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -219,7 +220,7 @@ font-family: "Poppins", cursive;
 
 // main establecimiento
 .contenedor-informacion {
-    font-family: "Poppins", cursive;
+           font-family: v.$font-parrafos;
     max-width: 1200px;
     margin: 0 auto;
     box-sizing: border-box;
@@ -291,7 +292,7 @@ font-family: "Poppins", cursive;
 $accordion-bg: v.$color-terciario;
 
 .main-subtitulo-establecimiento {
-    font-family: "Montserrat", cursive !important;
+    font-family: v.$font-titulos;
     text-align: center;
     color: v.$color-subtitulos;
     padding: 3%;
@@ -367,7 +368,7 @@ $accordion-bg: v.$color-terciario;
 }
 
 .main-iconos-contacto {
-    font-family: "Poppins", cursive;
+    font-family: v.$font-parrafos;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -478,7 +479,7 @@ $accordion-bg: v.$color-terciario;
 
 
 .valoraciones-bottom-section {
-                font-family: "Montserrat", cursive !important;
+                font-family: v.$font-titulos;
     max-width: 800px;
     margin: 60px auto 0px;
     padding: 5%;
