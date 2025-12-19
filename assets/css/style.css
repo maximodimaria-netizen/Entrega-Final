@@ -40,15 +40,15 @@
   }
 }
 header {
-  background-color: #cac7c7;
+  background-color: rgb(255, 228, 196);
 }
 
 main {
-  background-color: #cac7c7;
+  background-color: rgb(255, 228, 196);
 }
 
 body {
-  background-color: #cac7c7;
+  background-color: rgb(255, 228, 196);
 }
 
 .contacto-maps-iconos {
@@ -122,13 +122,14 @@ body {
     min-width: 400px;
   }
 }
-.main-contenedor-texto .main-h1 {
+.main-h1 {
   font-size: clamp(2.2rem, 4vw, 3.5rem);
   font-weight: 700;
   margin-bottom: 1rem;
   color: white;
 }
-.main-contenedor-texto .main-h1 .main-p1 {
+
+.main-p1 {
   font-size: 1rem;
   line-height: 1;
   color: white;
@@ -145,7 +146,7 @@ body {
 .header-establecimiento .carousel-inner,
 .header-establecimiento .carousel-item {
   height: 40vh;
-  background-color: #cac7c7;
+  background-color: rgb(255, 228, 196);
 }
 .header-establecimiento img {
   width: 100%;
@@ -165,7 +166,7 @@ body {
   left: 6%;
   transform: translateY(-50%);
   max-width: 600px;
-  color: #cac7c7;
+  color: rgb(255, 228, 196);
   z-index: 2;
 }
 
@@ -173,7 +174,7 @@ body {
   text-align: center;
   padding: 5%;
   background-color: #042f5a;
-  color: #cac7c7;
+  color: rgb(255, 228, 196);
 }
 .main-header-contacto .main-h2-contacto {
   font-size: clamp(2.2rem, 4vw, 3.5rem);
@@ -215,7 +216,7 @@ body {
   left: 6%;
   transform: translateY(-50%);
   max-width: 600px;
-  color: #cac7c7;
+  color: rgb(255, 228, 196);
   z-index: 2;
   animation: slideInRight 1.2s ease-out 0.2s forwards;
   opacity: 1;
@@ -614,7 +615,7 @@ hr {
 .main-galeria-carousel {
   border-radius: 10px;
   box-shadow: 0 10px 10px rgb(25, 160, 165);
-  background: #cac7c7;
+  background: rgb(255, 228, 196);
   margin: auto;
   max-width: 600px;
   max-height: 1000px;
@@ -624,7 +625,7 @@ hr {
 
 footer {
   background-color: #042f5a;
-  color: #cac7c7;
+  color: rgb(255, 228, 196);
   text-align: center;
   padding: 1%;
 }
