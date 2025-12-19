@@ -14,16 +14,16 @@
 }
 
 @media (max-width: 768px) {
-    .main-low-inicio {
-    
-        .main-img-inicio {
-                  img {
-            width: 200px;
-            height: 200px;
-        }
+  .main-low-inicio {
 
-        }
+    .main-img-inicio {
+      img {
+        width: 200px;
+        height: 200px;
+      }
+
     }
+  }
 }
 
 
@@ -47,57 +47,52 @@
 }
 
 //iconos-establecimiento>
-@media (max-width: 768px) { 
-    .main-flex {
-        flex-direction: column;
-
-        .main-mid-establecimiento,
-        .main-iconos-establecimiento {
-            width: 100%;
-        }
-
-        .main-iconos-establecimiento {
-            grid-template-columns: repeat(2, 1fr);
-        }
-    }
-}
-
 @media (max-width: 768px) {
-    .main-iconos-establecimiento{
-        margin-top: -250px;
-        text-align: center;
+  .main-flex {
+    flex-direction: column;
+
+    .main-mid-establecimiento,
+    .main-iconos-establecimiento {
+      width: 100%;
+      margin-top: -250px;
+      text-align: center;
+
+
     }
+  }
 }
+
 //maps contacto
 @media (max-width: 768px) {
 
-    .contacto-maps-iconos {
-        flex-direction: column;
-    }
+  .contacto-maps-iconos {
+    flex-direction: column;
+  }
 
-    .main-iconos-contacto {
-        justify-content: center;
-    }
+  .main-iconos-contacto {
+    justify-content: center;
+  }
 
-    .iconosubicacion {
-        width: 45%;
-    }
+  .iconosubicacion {
+    width: 100%;
+  }
 }
+
 @media (max-width: 768px) {
-    .main-img {
-        img {
-            text-align: center;
-            max-width: 600px;
-                min-width: 300px;
-        }
+  .main-img {
+    img {
+      text-align: center;
+      max-width: 600px;
+      min-width: 300px;
     }
+  }
 }
-@media (max-width: 768px) {
-    .valoraciones-bottom-section{
 
-      .imgopiniones img{
-        min-width: 400px;
-      }
+@media (max-width: 768px) {
+  .valoraciones-bottom-section {
+
+    .imgopiniones img {
+      min-width: 400px;
     }
+  }
 }
- 

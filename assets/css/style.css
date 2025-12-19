@@ -95,13 +95,6 @@ body {
   .main-flex .main-mid-establecimiento,
   .main-flex .main-iconos-establecimiento {
     width: 100%;
-  }
-  .main-flex .main-iconos-establecimiento {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media (max-width: 768px) {
-  .main-iconos-establecimiento {
     margin-top: -250px;
     text-align: center;
   }
@@ -114,7 +107,7 @@ body {
     justify-content: center;
   }
   .iconosubicacion {
-    width: 45%;
+    width: 100%;
   }
 }
 @media (max-width: 768px) {
