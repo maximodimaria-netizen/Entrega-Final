@@ -5,6 +5,7 @@
 
 //main index
 .main-inicio {
+
     position: relative;
     width: 100%;
     height: v.$variable-inicio-height 60vh;
@@ -71,6 +72,7 @@
 }
 
 .main-mid {
+    font-family: "Poppins", sans-serif;
     width: 90%;
     max-width: 750px;
     padding: 50px;
@@ -88,10 +90,14 @@
     .main-subtitulo-inicio {
         color: v.$color-subtitulos;
         margin: 5%;
+        font-family: "Poppins", cursive;
+    }
+    .main-parrafo-inicio{
+        font-family: "Poppins", cursive;
     }
 }
 
-.main-iconos-inicio {
+.main-iconos-inicio {font-family: "Poppins", cursive;
     display: flex;
     justify-content: center;
     gap: 7rem;
@@ -132,7 +138,9 @@
 
 
 .main-low-inicio {
+    font-family: "Poppins", sans-serif;
     padding: 2%;
+    
 
     .main-img {
         text-align: left;
@@ -153,7 +161,7 @@
         margin-left: 200px;
 
         .main-low-parr {
-
+        font-family: "Poppins", cursive;
             width: 90%;
             max-width: 500px;
             padding: 50px;
@@ -190,7 +198,7 @@
 }
 
 .main-contenedor {
-
+font-family: "Poppins", cursive;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -201,6 +209,7 @@
 }
 
 .main-subtitulo {
+
     font-size: 24px;
     margin-top: 0;
     color: v.$color-subtitulos;
@@ -210,6 +219,7 @@
 
 // main establecimiento
 .contenedor-informacion {
+    font-family: "Poppins", cursive;
     max-width: 1200px;
     margin: 0 auto;
     box-sizing: border-box;
@@ -229,6 +239,7 @@
     gap: 40px;
 
     .main-mid-establecimiento {
+
         width: 90%;
         max-width: 750px;
         padding: 50px;
@@ -280,6 +291,7 @@
 $accordion-bg: v.$color-terciario;
 
 .main-subtitulo-establecimiento {
+    font-family: "Montserrat", cursive !important;
     text-align: center;
     color: v.$color-subtitulos;
     padding: 3%;
@@ -288,6 +300,8 @@ $accordion-bg: v.$color-terciario;
 }
 
 .accordion {
+    font-family: "Poppins", cursive;
+
     .accordion-item {
         cursor: pointer;
         border: 1px solid v.$color-acordeon;
@@ -353,6 +367,7 @@ $accordion-bg: v.$color-terciario;
 }
 
 .main-iconos-contacto {
+    font-family: "Poppins", cursive;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -463,6 +478,7 @@ $accordion-bg: v.$color-terciario;
 
 
 .valoraciones-bottom-section {
+                font-family: "Montserrat", cursive !important;
     max-width: 800px;
     margin: 60px auto 0px;
     padding: 5%;

@@ -123,6 +123,7 @@ body {
   }
 }
 .main-h1 {
+  font-family: "Pacifico", cursive;
   font-size: clamp(2.2rem, 4vw, 3.5rem);
   font-weight: 700;
   margin-bottom: 1rem;
@@ -130,7 +131,8 @@ body {
 }
 
 .main-p1 {
-  font-size: 1rem;
+  font-family: "Montserrat", cursive !important;
+  font-size: 25px;
   line-height: 1;
   color: white;
 }
@@ -228,6 +230,7 @@ body {
   }
 }
 .main-mid {
+  font-family: "Poppins", sans-serif;
   width: 90%;
   max-width: 750px;
   padding: 50px;
@@ -252,9 +255,14 @@ body {
 .main-mid .main-subtitulo-inicio {
   color: #0995c0;
   margin: 5%;
+  font-family: "Poppins", cursive;
+}
+.main-mid .main-parrafo-inicio {
+  font-family: "Poppins", cursive;
 }
 
 .main-iconos-inicio {
+  font-family: "Poppins", cursive;
   display: flex;
   justify-content: center;
   gap: 7rem;
@@ -286,6 +294,7 @@ body {
   }
 }
 .main-low-inicio {
+  font-family: "Poppins", sans-serif;
   padding: 2%;
 }
 .main-low-inicio .main-img {
@@ -304,6 +313,7 @@ body {
   margin-left: 200px;
 }
 .main-low-inicio .main-low-inicio-parr .main-low-parr {
+  font-family: "Poppins", cursive;
   width: 90%;
   max-width: 500px;
   padding: 50px;
@@ -341,6 +351,7 @@ body {
 }
 
 .main-contenedor {
+  font-family: "Poppins", cursive;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -358,6 +369,7 @@ body {
 }
 
 .contenedor-informacion {
+  font-family: "Poppins", cursive;
   max-width: 1200px;
   margin: 0 auto;
   box-sizing: border-box;
@@ -418,11 +430,15 @@ body {
 }
 
 .main-subtitulo-establecimiento {
+  font-family: "Montserrat", cursive !important;
   text-align: center;
   color: #0995c0;
   padding: 3%;
 }
 
+.accordion {
+  font-family: "Poppins", cursive;
+}
 .accordion .accordion-item {
   cursor: pointer;
   border: 1px solid #FFFDF5;
@@ -478,6 +494,7 @@ body {
 }
 
 .main-iconos-contacto {
+  font-family: "Poppins", cursive;
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -579,6 +596,7 @@ body {
 }
 
 .valoraciones-bottom-section {
+  font-family: "Montserrat", cursive !important;
   max-width: 800px;
   margin: 60px auto 0px;
   padding: 5%;
@@ -638,6 +656,7 @@ footer {
   padding: 1%;
 }
 footer .footer-semifinal {
+  font-family: "Montserrat", cursive !important;
   width: 90%;
   max-width: 750px;
   padding: auto;
