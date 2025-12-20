@@ -93,12 +93,12 @@
         font-family: v.$font-parrafos;
     }
     .main-parrafo-inicio{
-               font-family: v.$font-parrafos;
+               font-family: v.$font-parrafos !important;
     }
 }
 
 .main-iconos-inicio {
-            font-family: v.$font-parrafos;
+            font-family: v.$font-parrafos!important;
     display: flex;
     justify-content: center;
     gap: 7rem;
@@ -139,7 +139,7 @@
 
 
 .main-low-inicio {
-            font-family: v.$font-parrafos;
+            font-family: v.$font-parrafos!important;
     padding: 2%;
     
 
@@ -162,7 +162,7 @@
         margin-left: 200px;
 
         .main-low-parr {
-                font-family: v.$font-parrafos;
+                font-family: v.$font-parrafos !important;
             width: 90%;
             max-width: 500px;
             padding: 50px;
@@ -199,7 +199,7 @@
 }
 
 .main-contenedor {
-        font-family: v.$font-parrafos;
+        font-family: v.$font-parrafos !important;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -220,7 +220,7 @@
 
 // main establecimiento
 .contenedor-informacion {
-           font-family: v.$font-parrafos;
+           font-family: v.$font-parrafos !important;
     max-width: 1200px;
     margin: 0 auto;
     box-sizing: border-box;
@@ -292,7 +292,7 @@
 $accordion-bg: v.$color-terciario;
 
 .main-subtitulo-establecimiento {
-    font-family: v.$font-titulos;
+    font-family: v.$font-titulos !important;
     text-align: center;
     color: v.$color-subtitulos;
     padding: 3%;
@@ -301,7 +301,7 @@ $accordion-bg: v.$color-terciario;
 }
 
 .accordion {
-    font-family: "Poppins", cursive;
+    font-family: v.$font-parrafos !important;
 
     .accordion-item {
         cursor: pointer;
@@ -368,7 +368,7 @@ $accordion-bg: v.$color-terciario;
 }
 
 .main-iconos-contacto {
-    font-family: v.$font-parrafos;
+    font-family: v.$font-parrafos !important;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -479,7 +479,7 @@ $accordion-bg: v.$color-terciario;
 
 
 .valoraciones-bottom-section {
-                font-family: v.$font-titulos;
+                font-family: v.$font-titulos !important;
     max-width: 800px;
     margin: 60px auto 0px;
     padding: 5%;
