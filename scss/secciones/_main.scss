@@ -523,10 +523,27 @@ hr {
     @include m.rounded(10px);
     box-shadow: 0 10px 10px v.$color-primario-borde;
     background: v.$color-primario;
-    margin: auto;
-    max-width: 600px;
-    max-height: 1000px;
-    padding: auto;
-    padding-bottom: 5%;
+    margin: 40px auto; 
+    max-width: 800px;  
+    overflow: hidden;   
+    padding: 10px;      
 
+    .carousel-item {
+        img {
+            height: 900px;     
+            object-fit: cover;  
+            object-position: center; 
+            @include m.rounded(5px);
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .main-galeria-carousel {
+        max-width: 100%;
+        .carousel-item img {
+            height: 750px; 
+
+        }
+    }
 }

@@ -48,7 +48,12 @@ main {
 }
 
 body {
-  background-color: rgb(255, 228, 196);
+  font-family: "Open Sans", "Poppins", Arial, sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, .main-h1 {
+  font-family: "Montserrat", Arial, sans-serif;
 }
 
 .contacto-maps-iconos {
@@ -131,7 +136,7 @@ body {
 }
 
 .main-p1 {
-  font-family: "Montserrat" Arial !important;
+  font-family: "Montserrat", Arial, sans-serif !important;
   font-size: 25px;
   line-height: 1;
   color: white;
@@ -254,14 +259,14 @@ body {
 .main-mid .main-subtitulo-inicio {
   color: #0995c0;
   margin: 5%;
-  font-family: "Poppins" Arial;
+  font-family: "Open Sans", "Poppins", Arial, sans-serif;
 }
 .main-mid .main-parrafo-inicio {
-  font-family: "Poppins" Arial !important;
+  font-family: "Open Sans", "Poppins", Arial, sans-serif !important;
 }
 
 .main-iconos-inicio {
-  font-family: "Poppins" Arial !important;
+  font-family: "Open Sans", "Poppins", Arial, sans-serif !important;
   display: flex;
   justify-content: center;
   gap: 7rem;
@@ -293,7 +298,7 @@ body {
   }
 }
 .main-low-inicio {
-  font-family: "Poppins" Arial !important;
+  font-family: "Open Sans", "Poppins", Arial, sans-serif !important;
   padding: 2%;
 }
 .main-low-inicio .main-img {
@@ -312,7 +317,7 @@ body {
   margin-left: 200px;
 }
 .main-low-inicio .main-low-inicio-parr .main-low-parr {
-  font-family: "Poppins" Arial !important;
+  font-family: "Open Sans", "Poppins", Arial, sans-serif !important;
   width: 90%;
   max-width: 500px;
   padding: 50px;
@@ -350,7 +355,7 @@ body {
 }
 
 .main-contenedor {
-  font-family: "Poppins" Arial !important;
+  font-family: "Open Sans", "Poppins", Arial, sans-serif !important;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -368,7 +373,7 @@ body {
 }
 
 .contenedor-informacion {
-  font-family: "Poppins" Arial !important;
+  font-family: "Open Sans", "Poppins", Arial, sans-serif !important;
   max-width: 1200px;
   margin: 0 auto;
   box-sizing: border-box;
@@ -429,14 +434,14 @@ body {
 }
 
 .main-subtitulo-establecimiento {
-  font-family: "Montserrat" Arial !important;
+  font-family: "Montserrat", Arial, sans-serif !important;
   text-align: center;
   color: #0995c0;
   padding: 3%;
 }
 
 .accordion {
-  font-family: "Poppins" Arial !important;
+  font-family: "Open Sans", "Poppins", Arial, sans-serif !important;
 }
 .accordion .accordion-item {
   cursor: pointer;
@@ -493,7 +498,7 @@ body {
 }
 
 .main-iconos-contacto {
-  font-family: "Poppins" Arial !important;
+  font-family: "Open Sans", "Poppins", Arial, sans-serif !important;
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -595,7 +600,7 @@ body {
 }
 
 .valoraciones-bottom-section {
-  font-family: "Montserrat" Arial !important;
+  font-family: "Montserrat", Arial, sans-serif !important;
   max-width: 800px;
   margin: 60px auto 0px;
   padding: 5%;
@@ -641,13 +646,26 @@ hr {
   border-radius: 10px;
   box-shadow: 0 10px 10px rgb(25, 160, 165);
   background: rgb(255, 228, 196);
-  margin: auto;
-  max-width: 600px;
-  max-height: 1000px;
-  padding: auto;
-  padding-bottom: 5%;
+  margin: 40px auto;
+  max-width: 800px;
+  overflow: hidden;
+  padding: 10px;
+}
+.main-galeria-carousel .carousel-item img {
+  height: 900px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 5px;
 }
 
+@media (max-width: 768px) {
+  .main-galeria-carousel {
+    max-width: 100%;
+  }
+  .main-galeria-carousel .carousel-item img {
+    height: 750px;
+  }
+}
 footer {
   background-color: #042f5a;
   color: rgb(255, 228, 196);
@@ -655,7 +673,7 @@ footer {
   padding: 1%;
 }
 footer .footer-semifinal {
-  font-family: "Montserrat" Arial;
+  font-family: "Montserrat", Arial, sans-serif;
   width: 90%;
   max-width: 750px;
   padding: auto;
