@@ -48,12 +48,7 @@ main {
 }
 
 body {
-  font-family: "Open Sans", "Poppins", Arial, sans-serif !important;
-  -webkit-font-smoothing: antialiased;
-}
-
-h1, h2, h3, .main-h1 {
-  font-family: "Montserrat", Arial, sans-serif;
+  background-color: rgb(255, 228, 196);
 }
 
 .contacto-maps-iconos {

@@ -9,12 +9,7 @@ main {
 }
 
 body {
-    font-family: variables.$font-parrafos !important;
-    -webkit-font-smoothing: antialiased;
-}
-
-h1, h2, h3, .main-h1 {
-    font-family: variables.$font-titulos;
+    background-color: variables.$color-primario;
 }
 
 .contacto-maps-iconos {
